@@ -46,8 +46,6 @@ python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreproces
 python -m jupyter nbconvert --to html --no-input --output-dir reports --output task\_02\_report notebooks/task\_02\_social\_network.ipynb
 ```
 
-PDF можно получить из HTML через браузер: открыть `reports/task\_02\_report.html`, нажать `Ctrl + P` и выбрать сохранение в PDF.
-
 ## Важные особенности модели
 
 * Все бизнес-параметры и сценарии загружаются из JSON.
